@@ -1,0 +1,732 @@
+/* SparkContactPage.css */
+.spark-contact-page {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.spark-header {
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 15px 0;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2c5aa0;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-menu a.active,
+.nav-menu a:hover {
+  color: #2c5aa0;
+}
+
+/* Hero Section */
+.contact-hero {
+  background: #f8f9fa;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.contact-hero h1 {
+  font-size: 36px;
+  color: #2c5aa0;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.contact-hero p {
+  font-size: 18px;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Main Content */
+.contact-main-content {
+  padding: 60px 0;
+  background: #fff;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 50px;
+  align-items: start;
+}
+
+/* Contact Info Sidebar */
+.contact-info-sidebar {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.info-section {
+  margin-bottom: 30px;
+}
+
+.info-section h3 {
+  color: #2c5aa0;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.info-section p {
+  color: #555;
+  line-height: 1.5;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.action-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  background: #2c5aa0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.action-btn:hover {
+  background: #1e3c72;
+}
+
+.btn-icon {
+  font-size: 18px;
+}
+
+/* Contact Form Section */
+.contact-form-section h2 {
+  color: #2c5aa0;
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.spark-contact-form {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.name-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+  box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #2c5aa0;
+}
+
+.consultation-note {
+  background: #e8f4fd;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 20px 0;
+  border-left: 4px solid #2c5aa0;
+}
+
+.consultation-note p {
+  margin: 0;
+  color: #2c5aa0;
+}
+
+.consent-checkbox {
+  margin: 25px 0;
+}
+
+.consent-checkbox label {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.consent-checkbox input[type="checkbox"] {
+  margin-top: 3px;
+}
+
+.submit-btn {
+  background: #2c5aa0;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-weight: 600;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  background: #1e3c72;
+}
+
+.success-message {
+  text-align: center;
+  padding: 40px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.success-message h3 {
+  color: #2c5aa0;
+  margin-bottom: 15px;
+}
+
+/* Footer Styles */
+.spark-footer {
+  background: #2c5aa0;
+  color: white;
+  padding: 50px 0 20px;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.footer-section h4 {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: white;
+}
+
+.footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.contact-info p {
+  margin-bottom: 8px;
+}
+
+.copyright {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #4a72b8;
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .content-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .name-fields {
+    grid-template-columns: 1fr;
+  }
+  
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .nav-menu {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .contact-hero {
+    padding: 40px 0;
+  }
+  
+  .contact-main-content {
+    padding: 40px 0;
+  }
+}
+
+
+/* Map Styles */
+.map-section {
+  margin-bottom: 2rem;
+}
+
+.map-section h3 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.map-container {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+/* Leaflet Map Customization */
+.leaflet-container {
+  font-family: inherit;
+}
+
+.leaflet-popup-content {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 8px;
+}
+
+/* Action button for directions */
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.action-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.action-btn:hover {
+  /* background: #e9ecef; */
+  transform: translateY(-1px);
+}
+
+.btn-icon {
+  font-size: 1.2rem;
+}
+
+/* Responsive design for map */
+@media (max-width: 768px) {
+  .map-container {
+    height: 250px;
+  }
+  
+  .action-buttons {
+    flex-direction: row;
+  }
+  
+  .action-btn {
+    flex: 1;
+    justify-content: center;
+  }
+}
+
+
+/* Add these styles to your existing SparkContactPage.css */
+
+/* Make form container half width */
+.half-width-form {
+  width: 50%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Form layout adjustments */
+.spark-contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Two-column layouts for name and contact fields */
+.name-fields,
+.contact-fields {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+/* Make form groups in two-column layouts take half width */
+.form-group.half {
+  flex: 1;
+  min-width: 0; /* Prevents overflow */
+}
+
+/* Full-width form groups */
+.form-group:not(.half) {
+  width: 100%;
+}
+
+/* Style adjustments for inputs */
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* Labels */
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Submit button */
+.submit-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.submit-btn:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.submit-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Consultation note */
+.consultation-note {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 4px;
+  border-left: 4px solid #007bff;
+  margin-bottom: 1rem;
+}
+
+.consultation-note p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* Consent checkbox */
+.consent-checkbox {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.consent-checkbox label {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.consent-checkbox input[type="checkbox"] {
+  margin-top: 0.2rem;
+  cursor: pointer;
+}
+
+/* Success message */
+.success-message {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #c3e6cb;
+}
+
+.success-message h3 {
+  margin-top: 0;
+  color: #155724;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .half-width-form {
+    width: 90%;
+    max-width: 100%;
+  }
+  
+  .name-fields,
+  .contact-fields {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .form-group.half {
+    width: 100%;
+  }
+}
+
+
+/* Dark Mode Styles for Contact Form */
+
+/* Dark mode form container */
+.contact-form-section.dark-mode {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.dark-text {
+  color: #e0e0e0 !important;
+}
+
+/* Dark form */
+.spark-contact-form.dark-form {
+  background-color: transparent;
+}
+
+/* Dark labels */
+.dark-label {
+  color: #b0b0b0 !important;
+}
+
+/* Dark inputs */
+.dark-input,
+.dark-textarea {
+  background-color: #2d2d2d !important;
+  color: #e0e0e0 !important;
+  border: 1px solid #404040 !important;
+  border-radius: 6px !important;
+  padding: 0.75rem !important;
+  transition: all 0.3s ease;
+}
+
+.dark-input::placeholder,
+.dark-textarea::placeholder {
+  color: #888 !important;
+}
+
+.dark-input:focus,
+.dark-textarea:focus {
+  outline: none;
+  border-color: #007bff !important;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25) !important;
+  background-color: #333 !important;
+}
+
+/* Dark textarea specific */
+.dark-textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* Dark consent checkbox */
+.dark-consent {
+  background-color: #2d2d2d !important;
+  border: 1px solid #404040 !important;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+.dark-consent label {
+  color: #b0b0b0;
+}
+
+.dark-checkbox {
+  accent-color: #007bff !important;
+  transform: scale(1.2);
+  margin-right: 0.5rem;
+}
+
+.dark-checkbox:checked {
+  background-color: #007bff !important;
+}
+
+/* Dark button */
+.dark-button {
+  background-color: #007bff !important;
+  color: white !important;
+  border: none !important;
+}
+
+.dark-button:hover:not(:disabled) {
+  background-color: #0056b3 !important;
+}
+
+.dark-button:disabled {
+  background-color: #404040 !important;
+  color: #888 !important;
+  cursor: not-allowed;
+}
+
+/* Dark success message */
+.success-message.dark-success {
+  background-color: #0f5132 !important;
+  color: #d1e7dd !important;
+  border: 1px solid #1a7550 !important;
+}
+
+.dark-success h3 {
+  color: #d1e7dd !important;
+}
+
+.dark-success p {
+  color: #d1e7dd !important;
+}
+
+/* Dark mode for input groups */
+.dark-input-group label {
+  color: #b0b0b0;
+}
+
+/* Consultation note in dark mode */
+.dark-consultation-note {
+  background-color: #2d2d2d !important;
+  border-left: 4px solid #007bff !important;
+  color: #b0b0b0 !important;
+}
+
+/* Responsive adjustments for dark mode */
+@media (max-width: 768px) {
+  .contact-form-section.dark-mode {
+    padding: 1.5rem;
+  }
+  
+  .dark-input,
+  .dark-textarea {
+    padding: 0.65rem !important;
+  }
+}
+
+/* Optional: Add smooth transition for theme switching */
+.contact-form-section,
+.spark-contact-form,
+.form-group input,
+.form-group textarea,
+.consent-checkbox,
+.submit-btn {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+
+/* Fix for Leaflet map z-index issue */
+.spark-contact-page {
+  position: relative;
+  z-index: 1;
+}
+
+.leaflet-map {
+  position: relative;
+  z-index: 10 !important;
+}
+
+.map-container {
+  position: relative;
+  z-index: 10;
+}
+
+/* Leaflet specific z-index fixes */
+.leaflet-container {
+  position: relative;
+  z-index: 10 !important;
+}
+
+.leaflet-pane {
+  z-index: 10 !important;
+}
+
+.leaflet-top,
+.leaflet-bottom {
+  z-index: 10 !important;
+}
+
+.leaflet-control {
+  z-index: 10 !important;
+}
